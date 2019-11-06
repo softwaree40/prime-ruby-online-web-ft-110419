@@ -1,10 +1,10 @@
 require 'pry'
 # Add  code here!
-def prime?(num)
-    if num % 2 == 1
-      #binding.pry
-      return true
-    else 
-      return false
-    end
+ddef prime?(num)
+  n = 2
+  while n < num
+    return false if num % n == 0
+    n += 1
+  end
+  true
 end
