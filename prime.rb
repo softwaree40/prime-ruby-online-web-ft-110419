@@ -8,5 +8,4 @@ def prime?(num)
   else 
      return false
   end
-  
 end
