@@ -1,12 +1,11 @@
 require 'pry'
 # Add  code here!
 def prime?(num)
-  n = 2
-  while n < num
-   if num % n == 0
-    n += 1
-    return true
-    end
-  end
-  return false
+  i = 1
+  while i < num
+     if 
+  
+  
+    i+=1
+   end
 end
