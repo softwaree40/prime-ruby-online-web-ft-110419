@@ -5,7 +5,7 @@ def prime?(num)
   while i < num 
     if num % i == 0
       return false
-     end
+     elsif 
    i+=1
   end
    return true 
