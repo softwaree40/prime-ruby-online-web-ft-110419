@@ -3,8 +3,9 @@ require 'pry'
 def prime?(num)
   n = 2
   while n < num
-    return true if num % n == 0
+     if num % n == 0
     n += 1
+    return true
   else 
      return false
   end
