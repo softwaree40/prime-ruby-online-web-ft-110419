@@ -3,7 +3,9 @@ require 'pry'
 def prime?(num)
    num.each do |n|
      if n % 2 == 0 
-       return n
+       return true
+     else
+        return false 
      end
    end
 end
