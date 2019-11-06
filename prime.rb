@@ -1,7 +1,8 @@
 require 'pry'
 # Add  code here!
 def prime?(num)
-   if prime?(num)
-     return true 
-   end
+  i = 2
+  while i < num 
+  i+=1
+end
 end
