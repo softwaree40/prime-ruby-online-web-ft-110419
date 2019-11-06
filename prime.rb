@@ -3,4 +3,5 @@ require 'pry'
 def prime?(num)
    if prime?(num)
      return true 
+   end
 end
